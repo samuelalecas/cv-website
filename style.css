@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .text-bold{
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .text-medium{
@@ -11,4 +11,8 @@ body {
 
 .text-light{
     font-weight: 200;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
