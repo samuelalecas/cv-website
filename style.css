@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.text-bold{
+    font-weight: 500;
+}
+
+.text-medium{
+    font-weight: 300;
+}
+
+.text-light{
+    font-weight: 200;
+}
