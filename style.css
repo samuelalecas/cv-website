@@ -6,6 +6,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container{
+    margin:auto;
+    max-width: 800px;
+    margin: 0 30px;
+}
+
 .text-bold {
     font-weight: 600;
 }
@@ -23,7 +29,7 @@ body {
 }
 
 h4 {
-    margin-top:16px;
+    margin-top:12px;
     margin-bottom: 0px;
 }
 
@@ -33,6 +39,11 @@ article {
     width: 100%;
 }
 
-article>div {
-    /* border: 1px solid black; */
+.left-column{
+    font-size: 0.8em;
+    line-height: 0.9em;
+}
+
+footer>ul>li{
+    list-style: none;
 }
