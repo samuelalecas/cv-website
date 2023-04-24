@@ -10,7 +10,7 @@ body {
 
 .container {
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0 3em;
 }
 
@@ -69,9 +69,9 @@ hr {
 
 .section-article {
     display: grid;
-    grid-template-columns: minmax(min-content, 100px) minmax(200px, 1fr);
+    grid-template-columns: minmax(min-content, 90px) minmax(200px, 1fr);
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .article-title {
@@ -82,9 +82,16 @@ hr {
     margin-bottom: -0.1em;
 }
 
-.article-workplace{
+.article-workplace {
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 2em;
+}
+
+.article-workplace-link {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 .article-date {
@@ -98,12 +105,12 @@ hr {
     line-height: 0.9em;
 }
 
-.article-list-item{
+.article-list-item {
     font-size: 1em;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5em;
-    margin-left: -1em;
+    margin-left: -1.6em;
     margin-bottom: 0.8em;
 }
 
@@ -111,19 +118,24 @@ hr {
 
 footer {
     background-color: rgb(243, 243, 243);
-    margin: 4em -9999rem 0;
+    margin: 0 -9999rem 0;
     padding: 2.5rem 9999rem;
 
 }
 
-.footer-list {
+.footer-list{
+    padding: 0;
+}
+.footer-list-item {
     list-style: none;
     margin-bottom: 20px;
+    /* display: inline-block */
 }
 
 .footer-list-text {
     position: relative;
     top: -2.5px;
-    margin-left: 20px;
+    margin-left: 0.5em;
+    margin-right: 2em;
     font-weight: 300;
 }
