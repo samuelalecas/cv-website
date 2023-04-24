@@ -1,4 +1,4 @@
-*{
+* {
     /* border: 1px solid black; */
     box-sizing: border-box;
 }
@@ -8,37 +8,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-    margin:auto;
+.container {
+    margin: auto;
     max-width: 800px;
     padding: 0 3em;
 }
 
-header{
+header {
     margin-top: 4em;
 }
 
-.header-avatar{
+.header-avatar {
     width: 150px;
     margin-bottom: 0.8em;
 }
 
-.header-title{
+.header-title {
     font-size: 2em;
     letter-spacing: -0.02em;
     font-weight: 600;
     margin-bottom: -0.2em;
 }
 
-.header-subtitle{
+.header-subtitle {
     font-size: 1.5em;
     font-weight: 200;
     margin-bottom: 2em;
 }
 
-.header-description{
+.header-description {
     font-weight: 200;
     font-size: 1.2em;
+    text-align: justify;
+    hyphens: auto;
     line-height: 1.5em;
     margin-bottom: 3em;
 }
@@ -55,39 +57,71 @@ header{
     font-weight: 200;
 }
 
-.uppercase {
+.section-title {
+    font-weight: 600;
     text-transform: uppercase;
+    margin-bottom: 0em;
 }
 
-h4 {
-    margin-top:12px;
-    margin-bottom: 0px;
+hr {
+    margin-bottom: 1.4em;
 }
 
-article {
+.section-article {
     display: grid;
     grid-template-columns: minmax(min-content, 100px) minmax(200px, 1fr);
     width: 100%;
+    margin-bottom: 3em;
 }
 
-.left-column{
+.article-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-top: 0.45em;
+    margin-bottom: -0.1em;
+}
+
+.article-workplace{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.article-date {
+    font-size: 0.8em;
+    line-height: 0.9em;
+    margin-bottom: 2em;
+}
+
+.article-city {
     font-size: 0.8em;
     line-height: 0.9em;
 }
 
-footer{
+.article-list-item{
+    font-size: 1em;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5em;
+    margin-left: -1em;
+    margin-bottom: 0.8em;
+}
+
+
+
+footer {
     background-color: rgb(243, 243, 243);
     margin: 4em -9999rem 0;
     padding: 2.5rem 9999rem;
 
 }
 
-.footer-list{
+.footer-list {
     list-style: none;
     margin-bottom: 20px;
 }
 
-.footer-list-text{
+.footer-list-text {
     position: relative;
     top: -2.5px;
     margin-left: 20px;
