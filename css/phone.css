@@ -1,10 +1,13 @@
-header {
-    margin-top: 4em;
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
-.header-avatar {
-    width: 150px;
-    margin-bottom: 0.8em;
+header{
+    padding: 0 2em;
+    margin-top: 3em;
 }
 
 .header-title {
@@ -16,21 +19,25 @@ header {
 
 .header-subtitle {
     font-size: 1.5em;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 2em;
 }
 
 .header-description {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.2em;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .header-list{
     display: none;
+}
+
+section{
+    padding: 0 2em;
 }
 
 .section-title {
@@ -81,19 +88,25 @@ hr {
     line-height: 0.9em;
 }
 
+.article-list{
+    margin-top: 3.5em;
+    margin-bottom: 4em;
+}
 .article-list-item {
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 300;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5em;
-    margin-left: -1.6em;
+    margin-left: -6.5em;
+    margin-right: 0.5em;
     margin-bottom: 0.8em;
 }
 
 footer {
     background-color: rgb(243, 243, 243);
-    margin: 0 -9999rem 0;
-    padding: 2.5rem 9999rem;
+    width: 100vw;
+    padding: 2em;
 
 }
 

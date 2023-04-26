@@ -9,8 +9,9 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    margin: auto;
-    max-width: 1000px;
-    padding: 0 3em;
+.header-avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.8em;
+    border-radius: 50%;
 }

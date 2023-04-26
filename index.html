@@ -1,3 +1,7 @@
+<!-- TODO: Mejorar contraste en móvil subiendo peso de las tipografías -->
+<!-- TODO: Estudiar cambiar el color de fondo (deslumbra) -->
+<!-- TODO: El scroll es infinito en móvil, entiendo que es por el footer -->
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,15 +18,18 @@
     <!-- Carga de iconos -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
-    <!-- Media Queries -->
+    <!-- Styles and Media Queries -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 800px)' href="./css/phone.css" />
-    <link rel="stylesheet" media='screen and (min-width: 801px)' href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/dark.css">
+    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 700px)' href="./css/phone.css" />
+    <link rel="stylesheet" media='screen and (min-width: 701px)' href="./css/desktop.css" />
 
 
 
     <title>Samuel Alegre - CV</title>
 </head>
+
+<!-- <body class="dark-theme"> -->
 
 <body>
     <main class="container">
@@ -87,7 +94,7 @@
                     <p class="article-workplace">
                         Escuela de Artes Eulogio Blasco
                     </p>
-                    <ul>
+                    <ul class="article-list">
                         <li class="article-list-item">
                             Dirección artística de los proyectos del alumnado.
                         </li>
@@ -116,7 +123,7 @@
                     <p class="article-workplace">
                         <a class="article-workplace-link" href="https://www.binalogue.com">Binalogue</a>
                     </p>
-                    <ul>
+                    <ul class="article-list">
                         <li class="article-list-item">
                             Clientes: Cocacola, AXN, Discovery Channel, Disney Channel, TVE, Musical Hoy No Me Puedo
                             Levantar, Biennale di Venecia, Spotify, Telefónica, Coronita, Heineken, Absolut Vodka,
@@ -153,7 +160,7 @@
                     <p class="article-workplace">
                         <a class="article-workplace-link" href="https://www.facebook.com/agencialetrab/">LETRA B</a>
                     </p>
-                    <ul>
+                    <ul class="article-list">
                         <li class="article-list-item">
                             Aprendizaje a nivel profesional de diseño web y gráfico.
                         </li>

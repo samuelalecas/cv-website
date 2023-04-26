@@ -1,0 +1,17 @@
+:root{
+    --white: rgb(226, 226, 226);
+    --black: rgb(41, 41, 41);
+    --gray: rgb(35, 35, 35);
+}
+body.dark-theme{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+body.dark-theme a{
+    color:var(--white);
+}
+
+body.dark-theme footer{
+    background-color: var(--gray);
+}
