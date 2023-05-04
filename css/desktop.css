@@ -78,26 +78,29 @@
     margin-bottom: 2rem;
 }
 
-.article-top {
+.article-first-line, .article-second-line {
     display: flex;
 }
 
-.article-top-left {
+.article-date {
     min-width: 5rem;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
 }
 
 .article-title {
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 1.6rem;
-    margin-top: 0.5rem;
+    line-height: 1.7rem;
+    margin-top: 0.4rem;
     margin-right: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 
 .article-workplace {
     font-weight: 300;
     font-style: italic;
+    margin-top: 0.6rem;
 }
 
 .article-workplace-link {
@@ -106,13 +109,8 @@
     text-decoration: none;
 }
 
-.article-date {
-    font-size: 0.8rem;
-    line-height: 0.9rem;
-    margin-bottom: 2rem;
-}
-
 .article-city {
+    min-width: 5rem;
     font-size: 0.8rem;
     line-height: 0.9rem;
 }

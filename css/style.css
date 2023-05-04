@@ -47,3 +47,7 @@ body {
 .footer {
     background-color: var(--white);
 }
+
+.grid-prueba{
+    display: grid;
+}
