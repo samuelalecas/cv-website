@@ -1,11 +1,12 @@
 function toggleTheme() {
     let element = document.body;
+    let button = document.getElementById("theme-button");
     element.classList.toggle("dark-theme");
 
-    if (document.getElementById("theme-button").className == "lni lni-sun") {
-        document.getElementById("theme-button").className = "lni lni-night";
+    // Toggle icon
+    if (button.className == "lni lni-sun") {
+        button.className = "lni lni-night";
     } else {
-        document.getElementById("theme-button").className = "lni lni-sun";
+        button.className = "lni lni-sun";
     }
-
 }

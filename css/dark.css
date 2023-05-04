@@ -12,7 +12,7 @@ body.dark-theme a{
     color:var(--white);
 }
 
-body.dark-theme footer{
+body.dark-theme .footer{
     background-color: var(--gray);
 }
 

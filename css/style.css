@@ -16,7 +16,7 @@ body {
 .header-avatar {
     width: 150px;
     height: 150px;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.8rem;
     border-radius: 50%;
 }
 
@@ -32,4 +32,12 @@ body {
 
 .header-button-darkmode > i{
     color: var(--black);
+}
+
+.divisor {
+    margin-bottom: 1.4rem;
+}
+
+.footer {
+    background-color: var(--white);
 }
