@@ -6,6 +6,7 @@
 
 .header {
     margin-top: 4rem;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -70,6 +71,16 @@
     top: -2.5px;
     margin-left: 0.5rem;
     font-weight: 300;
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.left-column, .right-column{
+    width: 42%;
 }
 
 .section-article {
