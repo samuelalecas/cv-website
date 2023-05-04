@@ -16,7 +16,7 @@
     margin-bottom: 0.8rem;
 }
 
-.header-desktop-column2{
+.header-desktop-column2 {
     min-width: 300px;
     max-width: 24rem;
     margin: 0 2rem;
@@ -32,14 +32,15 @@
 .header-subtitle {
     font-size: 1.5rem;
     font-weight: 200;
-    max-width: 15rem;
+    max-width: 22rem;
     margin-bottom: 2rem;
 }
-@media screen and (max-width: 872px) {
+
+@media screen and (max-width: 930px) {
     .header-subtitle {
         font-size: 1.3rem;
         margin-bottom: 2.8rem;
-    }   
+    }
 }
 
 .header-description {
@@ -51,10 +52,11 @@
     margin-bottom: 3rem;
 }
 
-.header-list{
+.header-list {
     padding: 0;
-    margin-top: 11.6rem;
+    margin-top: 11rem;
 }
+
 .header-list-item {
     list-style: none;
     margin-bottom: 1rem;
@@ -70,32 +72,32 @@
     font-weight: 300;
 }
 
-.section-title {
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0rem;
+.section-article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
 }
 
+.article-top {
+    display: flex;
+}
 
-.section-article {
-    display: grid;
-    grid-template-columns: minmax(min-content, 90px) minmax(200px, 1fr);
-    width: 100%;
-    margin-bottom: 1rem;
+.article-top-left {
+    min-width: 5rem;
 }
 
 .article-title {
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 1.5rem;
-    margin-top: 0.45rem;
-    margin-bottom: -0.1rem;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .article-workplace {
     font-weight: 300;
     font-style: italic;
-    margin-bottom: 2rem;
 }
 
 .article-workplace-link {
@@ -115,12 +117,17 @@
     line-height: 0.9rem;
 }
 
+.article-list {
+    padding-left: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .article-list-item {
-    font-size: 1rem;
+    font-weight: 300;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5rem;
-    margin-left: -1.6rem;
     margin-bottom: 0.8rem;
 }
 
@@ -129,7 +136,6 @@
     padding: 2.5rem 9999rem;
 }
 
-.footer-list{
+.footer-list {
     display: none;
 }
-

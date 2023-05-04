@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
 
-.header{
+.header {
     padding: 0 2rem;
     margin-top: 3rem;
 }
@@ -28,49 +28,30 @@ body{
     font-size: 1.2rem;
     text-align: justify;
     hyphens: auto;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin-bottom: 2rem;
 }
 
-.header-list{
+.header-list {
     display: none;
 }
 
-.section{
+.section {
     padding: 0 2rem;
 }
 
-.section-title {
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-
 .section-article {
-    display: grid;
-    grid-template-columns: minmax(min-content, 90px) minmax(200px, 1fr);
-    width: 100%;
-    margin-bottom: 1rrem;
-}
-
-.article-title {
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.5rem;
-    margin-top: 0.45rem;
-    margin-bottom: -0.1rem;
-}
-
-.article-workplace {
-    font-weight: 300;
-    font-style: italic;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2rem;
 }
 
-.article-workplace-link {
-    color: black;
-    font-weight: 300;
-    text-decoration: none;
+.article-top {
+    display: flex;
+}
+
+.article-top-left {
+    min-width: 5rem;
 }
 
 .article-date {
@@ -84,18 +65,36 @@ body{
     line-height: 0.9rem;
 }
 
-.article-list{
-    margin-top: 3.5rem;
-    margin-bottom: 4rem;
+.article-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
 }
+
+.article-workplace {
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.article-workplace-link {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.article-list {
+    padding-left: 1.5rem;
+}
+
 .article-list-item {
-    font-size: 1.1rem;
     font-weight: 300;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5rem;
-    margin-left: -6.5rem;
-    margin-right: 0.5rem;
     margin-bottom: 0.8rem;
 }
 
@@ -104,9 +103,10 @@ body{
     padding: 2rem;
 }
 
-.footer-list{
+.footer-list {
     padding: 0;
 }
+
 .footer-list-item {
     list-style: none;
     margin-bottom: 20px;
