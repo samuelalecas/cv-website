@@ -13,7 +13,7 @@
 
 .header-avatar {
     width: 150px;
-    /* margin-right: 3em; */
+    margin-left: 2.3rem;
     margin-bottom: 0.8rem;
 }
 
@@ -114,11 +114,6 @@
     margin-top: 0.6rem;
 }
 
-.article-workplace-link {
-    color: var(--black);
-    font-weight: 300;
-    text-decoration: none;
-}
 
 .article-city {
     min-width: 5rem;

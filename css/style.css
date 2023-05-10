@@ -39,6 +39,12 @@ body {
     color: var(--black);
 }
 
+.link {
+    color: var(--black);
+    font-weight: 300;
+    text-decoration: none;
+}
+
 .section-title {
     font-weight: 600;
     text-transform: uppercase;
